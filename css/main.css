@@ -98,15 +98,23 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  overflow: hidden;
+}
+
 .container {
-    font-family: 'Leckerli One', cursive;
-    font-size: 30em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+  font-family: 'Leckerli One', cursive;
+  font-size: 80vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.container p {
+  margin: 0;
 }
 
 /* ==========================================================================
